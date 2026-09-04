@@ -15,3 +15,4 @@ dependencies:
   #   # All dependencies of `main` are public by default.
   #   public: true
   jef-sure/pn532: ^0.0.3
+  espressif/esp-idf-cxx: ^1.0.2-beta

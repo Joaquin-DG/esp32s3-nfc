@@ -1,0 +1,32 @@
+dependencies:
+  espressif/esp-idf-cxx:
+    component_hash: 2fa63e4e725f0c2d3dd6d99da8a91d404b4b49667088b1be0f336eb9c13ff17f
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.0.2-beta
+  idf:
+    source:
+      type: idf
+    version: 6.0.2
+  jef-sure/pn532:
+    component_hash: c3fe7a431d41a34d1e0d9cef1a25d1f67de2a9f0349143919396a1c74e285575
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.2.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.0.3
+direct_dependencies:
+- espressif/esp-idf-cxx
+- idf
+- jef-sure/pn532
+manifest_hash: 97a4826826e18033e893c1ff1c982bc178704b91c6e824ad366b08e10fe79c6c
+target: esp32s3
+version: 3.0.0
