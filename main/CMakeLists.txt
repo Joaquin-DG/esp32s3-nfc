@@ -10,5 +10,6 @@ idf_component_register(SRCS "nfc.cpp"
                         esp_driver_uart 
                         espressif__esp-idf-cxx 
                         jef-sure__pn532
+                        led_strip
                     )
 
